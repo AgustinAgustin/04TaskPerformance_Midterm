@@ -64,6 +64,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmBasicThread";
             this.Text = "Basic Thread";
+            this.Load += new System.EventHandler(this.FrmBasicThread_Load);
             this.ResumeLayout(false);
 
         }
